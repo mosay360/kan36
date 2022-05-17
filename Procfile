@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn mychurch.wsgi --log-file -
+web: gunicorn mykan.wsgi --log-file -
