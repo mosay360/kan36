@@ -20,9 +20,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+#STATICFILES_DIRS = (
+   # os.path.join(BASE_DIR, 'static'),
+#)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
@@ -155,7 +155,7 @@ JAZZMIN_SETTINGS = {
     "site_logo": None,
     "welcome_sign": "Welcome to the your_site_name",
     # Copyright on the footer
-    "copyright": "your_site_name",
+    "copyright": "mosay360",
     "user_avatar": None,
     ############
     # Top Menu #
